@@ -1,0 +1,55 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+!/storage/framework/cache/.gitkeep
+!/storage/framework/sessions/.gitkeep
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Compiled assets
+/public/css/app.css
+/public/js/app.js
+/public/mix-manifest.json
+
+# Storage uploads (keep structure but not files)
+/storage/app/public/*
+!/storage/app/public/.gitkeep
+
+# Log files
+/storage/logs/*.log
+
+# Cache
+/bootstrap/cache/*.php
+!/bootstrap/cache/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Revolve theme (if proprietary)
+# /revolve-main
+
+# Debugbar
+/storage/debugbar/*
+!/storage/debugbar/.gitkeep
